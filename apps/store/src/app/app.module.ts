@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
 import { StoreUiSharedModule } from '@bg-hoard/store/ui-shared';
 
 @NgModule({
@@ -12,6 +12,7 @@ import { StoreUiSharedModule } from '@bg-hoard/store/ui-shared';
     MatCardModule,
     BrowserModule,
     StoreUiSharedModule,
+    HttpClientModule,
     RouterModule.forRoot(
       [
         {
