@@ -64,7 +64,7 @@
     "@nrwl/linter": "11.5.1",
     "@nrwl/nest": "11.5.1",
     "@nrwl/node": "11.5.1",
-    "@nrwl/nx-cloud": "latest",
+    "@nrwl/nx-cloud": "^11.2.0",
     "@nrwl/storybook": "^11.5.1",
     "@nrwl/tao": "11.5.1",
     "@nrwl/workspace": "11.5.1",
