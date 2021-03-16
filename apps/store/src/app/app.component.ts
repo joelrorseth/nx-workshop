@@ -10,7 +10,9 @@ import { Game } from '@bg-hoard/util-interface';
 })
 export class AppComponent {
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) {
+    console.log('AppComponent constructed');
+  }
 
   title = 'Board Game Hoard';
   games = this.httpClient.get<Game[]>('/api/games');
